@@ -1,0 +1,18 @@
+---
+source: src/main.rs
+expression: harness.root_widget()
+---
+Portal(
+    Flex(
+        Flex(
+            Textbox(
+                TextArea<>,
+            ),
+            Button(
+                Label<Add task>,
+            ),
+        ),
+    ),
+    ScrollBar,
+    ScrollBar,
+)

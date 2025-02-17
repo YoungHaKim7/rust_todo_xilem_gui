@@ -1,0 +1,9 @@
+[package]
+name = "rust_todo_xilem_gui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+insta = "1.42.1"
+masonry = { version = "0.2.0", git="https://github.com/linebender/xilem" }
+winit = "0.30.4"
